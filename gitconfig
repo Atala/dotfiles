@@ -1,7 +1,7 @@
 [user]
     name = Atala
     email = alois.guillope@gmail.com
-    
+
 [core]
     autocrlf = input
     safecrlf = false
@@ -45,9 +45,6 @@
 
 [push]
     default = simple
-
-[credential]
-    helper = /opt/boxen/bin/boxen-git-credential
 
 [hub]
     protocol = https
