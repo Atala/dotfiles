@@ -1,12 +1,18 @@
-source ~/.aliases
-
 export EDITOR='vim'
 
-#
-# If we have boxen installed, source the Boxen environment
-#
-if [ -f /opt/boxen/env.sh ]; then
-  source /opt/boxen/env.sh
+# Add __git_ps1 command
+if [ -f ~/.git-prompt.sh ]; then
+  source ~/.git-prompt.sh
+  export PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
+fi
+
+# enable git completion
+source ~/.git-completion.sh
+
+
+# add aliases
+if [ -f ~/.bash_aliases ]; then
+. ~/.bash_aliases
 fi
 
 #
