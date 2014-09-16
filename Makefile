@@ -26,6 +26,8 @@ clean_dotfiles:
 		unlink $(TARGET)/.$$f; \
 	done
 
-install: install_dotfiles
+install:
+	install_dotfiles
+	source ~/.bashrc
 
 clean: clean_dotfiles
