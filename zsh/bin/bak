@@ -1,0 +1,49 @@
+#!/usr/bin/env python
+import sys
+import os
+import shutil
+import tarfile
+
+if __name__ == '__main__':
+	if len(sys.argv) < 2:
+		print "usage: bak <target>"
+		print "\tCreate a dated backup of target"
+		sys.exit(1)
+
+	target = sys.argv[1]
+
+	if not os.path.exists(target):
+		print "Target does not exist."
+		sys.exit(1)
+
+	if os.path.isfile(target):
+		new_name = target + ".bak"
+		test_name = new_name
+		i = 1
+		while os.path.exists(test_name):
+			test_name = "%s%d" % (new_name, i)
+			i += 1
+		new_name = test_name
+
+		print "Copy <%s> to <%s>." % (target, new_name)
+		shutil.copy2(target, new_name)
+
+	elif os.path.isdir(target):
+		new_name = target + ".bak"
+		test_name = new_name
+		i = 1
+		while os.path.exists(test_name + ".tgz"):
+			test_name = "%s%d" % (new_name, i)
+			i += 1
+		new_name = test_name + ".tgz"
+
+		print "Archive <%s> to <%s>." % (target, new_name)
+		tar = tarfile.open(new_name, "w:gz")
+		tar.add(target)
+		tar.close()
+
+	else:
+		print "Invalid target"
+		sys.exit(1)
+
+	sys.exit(0)

@@ -1,0 +1,400 @@
+ls
+ls fkefe
+ls
+rm zshrc
+ls
+ls
+ls ~/Documents/Dropbox/Library/zsh
+ls -la ~/Documents/Dropbox/Library/zsh
+ls -la ~/Documents/Dropbox/Library/zsh
+ls -la ~/Documents/Dropbox/Library/zsh
+ls -la ~/Documents/Dropbox/Library/zsh
+ls -la ~/
+.unison
+ls
+less arcaba240e27ff35deb1b5f8779cbfb0f9
+ls
+ls
+exit
+cd ~/Library/Preferences/
+ls com.apple*
+ls com.apple.side*
+mate com.apple.sidebarlists.plist
+open com.apple.sidebarlists.plist
+open com.apple.sidebarlists.plist
+cd /Network
+ls
+cd /
+ls -la
+cd net
+ls
+ls -la
+cd ..
+ls
+ls
+cd Dow
+ls
+cd ~/Downloads
+mkdir test
+setfileicon /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/GenericAirDiskIcon.icns test
+open .
+rm -rf test
+ls /Volumes/Documents/Student
+ls -la
+cd ../Desktop
+cd /Volumes/Documents/Student
+ls -la
+du -h .unison.There.Will.Be.Blood\[2007\]DvDrip\[Eng\]-aXXo.avi.caba240e27ff35deb1b5f8779cbfb0f9.unison.tmp
+du -h .unison.There.Will.Be.Blood\[2007\]DvDrip\[Eng\]-aXXo.avi.caba240e27ff35deb1b5f8779cbfb0f9.unison.tmp
+du -h .unison.There.Will.Be.Blood\[2007\]DvDrip\[Eng\]-aXXo.avi.caba240e27ff35deb1b5f8779cbfb0f9.unison.tmp
+du -h .unison.There.Will.Be.Blood\[2007\]DvDrip\[Eng\]-aXXo.avi.caba240e27ff35deb1b5f8779cbfb0f9.unison.tmp
+du -h .unison.There.Will.Be.Blood\[2007\]DvDrip\[Eng\]-aXXo.avi.caba240e27ff35deb1b5f8779cbfb0f9.unison.tmp
+ls -la
+du -h .unison.There.Will.Be.Blood\[2007\]DvDrip\[Eng\]-aXXo.avi.caba240e27ff35deb1b5f8779cbfb0f9.unison.tmp
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls
+cd
+ls
+mv .zshrc zshrc.bak
+mv .zsh zsh.bak
+exit
+ls /Volumes/Documents/Temporary
+du -h /Volumes/Documents/Student/UPMC/ILP/Cours/
+du -h /Volumes/Documents/Student/UPMC/ILP/Cours/
+du -h /Volumes/Documents/Student/UPMC/ILP/Cours/
+du -h /Volumes/Documents/Student/UPMC/ILP/Cours/
+du -h /Volumes/Documents/Student/UPMC/ILP/Cours/
+du -h /Volumes/Documents/Student/UPMC/ILP/Cours/
+du -h /Volumes/Documents/Student/UPMC/ILP/Cours/
+du -h /Volumes/Documents/Student/UPMC/ILP/Cours/
+du -h /Volumes/Documents/Student/UPMC/ILP/Cours/PDF
+du -h /Volumes/Documents/Student/UPMC/ILP/Cours/PDF/
+du -h /Volumes/Documents/Student/UPMC/ILP/Cours/PDF/*
+ls
+exit
+launchd unload menu.test
+launchctl unload menu.test
+launchctl unload ~/Library/LaunchAgents/menu.test.plist
+launchctl load ~/Library/LaunchAgents/menu.test.plist
+launchctl reload ~/Library/LaunchAgents/menu.test.plist
+launchtl
+man launchctl
+ls /Library/Preferences/SystemConfiguration
+open /Library/Preferences/SystemConfiguration/NetworkInterfaces.plist
+open /Library/Preferences/SystemConfiguration/com.apple.smb.server.plist
+open /Library/Preferences/SystemConfiguration/com.apple.network.identification.plist
+rm ~/Library/LaunchAgents/menu.test.plist
+unison sync_macbook -batch
+launchctl load ~/Library/LaunchAgents/com.mickaelmenu.sync_macbook.plist
+launchctl load ~/Library/LaunchAgents/com.mickaelmenu.backup_documents.plist
+ls
+rm .unison/launchd*
+ls
+less ~/.unison/backup_documents.prf 
+less ~/.unison/logs
+tail -f ~/.unison/logs
+tail -f ~/.unison/logs
+tail -f ~/.unison/logs
+tail -f ~/.unison/logs
+tail -f ~/.unison/logs
+less .unison/logs
+ls
+cd .unison
+ls
+unison sync_macbook -batch
+less logs
+unison sync_macbook -batch
+less logs
+tail -f logs
+tail -f logs
+ls
+ls
+less ~/Library/LaunchAgents
+ls ~/Library/LaunchAgents
+less ~/Library/LaunchAgents/com.mickaelmenu.sync_macbook.plist
+vim ~/Library/LaunchAgents/com.mickaelmenu.sync_macbook.plist
+launchctl ~/Library/LaunchAgents/com.mickaelmenu.sync_macbook.plist
+launchctl unload ~/Library/LaunchAgents/com.mickaelmenu.sync_macbook.plist
+launchctl load ~/Library/LaunchAgents/com.mickaelmenu.sync_macbook.plist
+ls
+ls
+less launchd_sync_macbook.log
+less launchd_sync_macbook.log
+less logs
+ls
+mv ~/Library/Services/Import\ Into\ iTunes\ \(Waiting\).workflow ~/Library/Services/Import\ Into\ iTunes.workflow
+open ~/Library/Services/Import\ Into\ iTunes.workflow
+ls
+less launchd_sync_macbook.log
+less launchd_sync_macbook.log
+less launchd_sync_macbook.log
+tail -f launchd_sync_macbook.log
+tail -f logs
+ls
+tail -f backup_documents.prf
+tail -f launchd_sync_macbook.log
+tail -f backup_documents.prf
+tail -f launchd_sync_macbook.log
+launchctl unload ~/Library/LaunchAgents/com.mickaelmenu.sync_macbook.plist
+vim ~/Library/LaunchAgents/com.mickaelmenu.sync_macbook.plist
+launchctl load ~/Library/LaunchAgents/com.mickaelmenu.sync_macbook.plist
+ls
+vim sync_macbook.prf
+ls
+less logs
+man launchd.plit
+man launchd.plist
+ls
+tail -f launchd_sync_macbook.log
+ls
+python
+sudo port search MacFSEvents
+sudo port install py26-macfsevents
+ls
+less launchd_sync_macbook.log
+ls /Network
+ls /Network
+ls -la /Network
+ls -la /Network
+ls smb://florence
+ls /Volumes
+ls /Volumes/Documents-1
+ls
+man ping
+ping MacBook.local -t 1
+ping -t 1 MacBook.local 
+ping -t 1 MacBook.local
+ping MacBook.local
+ping -t 1 MacBook.local
+ping -t 1 MacBook.local
+ping -t 1 MacBook.local
+ping -t 1 MacBook.local
+ping -t 1 MacBook.local
+ping -t 1 MacBook.local
+ping -t 1 MacBook.local
+ping -t 0.5 MacBook.local
+ping -t 1 MacBook.local
+cd ~/Downloads
+ls
+mkdir sync_daemon
+cd sync_daemon
+mate sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+python sync_daemon.py
+ls
+cd 
+cd .unison
+ls
+less sync_macbook.prf
+less logs
+ls
+vim sync_macbook.prf
+vim global.prf
+ls
+vim backup_documents.prf
+ls
+vim sync_macbook.prf
+ls /etc/services
+telnet 192.168.1.2 80
+telnet 192.168.1.3 80
+telnet 192.168.1.2 80
+ls
+cd
+ls
+cd ~/Documents/Dropbox
+ls
+cd Library
+ls
+less ~/.unison/logs
+ls
+ls
+man zsh
+ls
+mkdir zsh
+ls
+cd zsh
+ls
+ln -s /Users/mickael/.zshrc /Users/mickael/Documents/Dropbox/Library/zsh/zshrc
+ln -s /Users/mickael/.zsh /Users/mickael/Documents/Dropbox/Library/zsh/zsh
+ls
+ls
+rm zsh
+rm zshrc
+ls
+mv ~/.zsh zsh
+ls
+mv ~/.zshrc zshrc
+ls
+ln -s /Users/mickael/Documents/Dropbox/zsh /Users/mickael/.zsh
+ln -s /Users/mickael/Documents/Dropbox/Library/zsh/zsh /Users/mickael/.zsh
+rm ~/.zsh
+ln -s /Users/mickael/Documents/Dropbox/Library/zsh/zsh /Users/mickael/.zsh
+ln -s /Users/mickael/Documents/Dropbox/Library/zsh/zshrc /Users/mickael/.zshrc
+ls
+ls
+cd ..
+cd ../tmp
+ls
+touch test
+touch test
+touch bidule truc
+touch test
+cd /Volumes/Documents
+ls
+ls
+top
+ls
+ls -flefe
+ls -la
+ls effef
+cd
+ls fefef
+ls
+ls -la
+ls
+mkdir Documents/Dropbox/Library/unison
+rm .unison
+mv Library/Application\ Support/Unison/* Documents/Dropbox/Library/unison
+rmdir Library/Application\ Support/Unison
+ln -s /Users/mickael/Documents/Dropbox/Library/unison /Users/mickael/Library/Application\ Support/Unison
+ln -s /Users/mickael/Documents/Dropbox/Library/unison /Users/mickael/.unison
+ls -la
+cd .unison
+ls
+cd
+ls -la
+vim .zshrc
+ls -la
+rm .zsh/history
+ls
+ls -la
+rm ~/Library/Services/Change\ Track\ Title\ to\ Title\ Case..workflow
+ls
+less ~/.unison/logs
+ls
+cd ~/Downloads
+ls
+cd sync_daemon
+ls
+mv sync_daemon.py test.py
+mate test.py
+top
+dns-sd -B _ssh._tcp .
+dns-sd -B _ssh._tcp .
+dns-sd -B _afpovertcp._tcp .
+dns-sd -B
+dns-sd
+dns-sd -B _ssh._tcp .
+dns-sd -B _ssh._tcp .
+dns-sd -B _ssh._tcp .
+dns-sd -B _ssh._tcp .
+dns-sd -B _ssh._tcp .
+dns-sd -B _ssh._tcp .
+less /etc/services
+ls
+lsof -F an0 watcher.py
+sudo apt-cache search bonjour
+sudo port search bonjour
+sudo port install py26-pybonjour
+vim register.py
+python register.py TestService _test._tcp 1234
+vim register.py
+python register.py _test._tcp
+vim register.py
+python register.py _test._tcp
+python register.py _ssh._tcp
+python register.py _ssh._tcp
+python register.py _ssh._tcp
+python register.py _ssh._tcp
+python register.py _ssh._tcp
+python register.py _ssh._tcp
+python register.py _ssh._tcp
+dns-sd -B _ssh._tcp .
+python register.py _ssh._tcp
+unison sync_macbook -batch
