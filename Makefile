@@ -5,7 +5,7 @@
 
 SOURCE		:= $(CURDIR)
 TARGET		:= $(HOME)
-FILES		:= bashrc bash_profile gitconfig gitignore_global aliases profile vimrc vim python_conf
+FILES		:= zshrc gitconfig gitignore_global aliases vimrc vim python_conf zsh
 
 UNAME		:= $(shell uname)
 
@@ -26,8 +26,6 @@ clean_dotfiles:
 		unlink $(TARGET)/.$$f; \
 	done
 
-install:
-	install_dotfiles
-	source ~/.bashrc
+install: install_dotfiles
 
 clean: clean_dotfiles
