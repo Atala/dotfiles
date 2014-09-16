@@ -1,0 +1,7 @@
+if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
+    export VIRTUALENVWRAPPER_PYTHON=`which python`
+    export VIRTUALENVWRAPPER_VIRTUALENV=`which virtualenv`
+    export WORKON_HOME=~/.virtualenvs
+    export PROJECT_HOME=~/src
+    source /usr/local/bin/virtualenvwrapper.sh
+fi

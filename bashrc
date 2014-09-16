@@ -139,4 +139,8 @@ else \
   echo " '$Yellow$PathShort$Color_Off'\$ "; \
 fi)'
 
+# python configuration
+if [ -f ~/.python_conf ]; then
+. ~/.python_conf
+fi
 
