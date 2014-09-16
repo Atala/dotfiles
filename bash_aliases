@@ -16,6 +16,18 @@ alias la='ls -AG'
 alias l='ls -CFG'
 alias ..='cd ..'
 
+# Shortcuts
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias p="cd ~/src"
+alias g="git"
+alias h="history"
+alias j="jobs"
+
+# Show/hide hidden files in Finder
+alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
 # git aliases
 alias gst='git status'
 alias gl='git pull'
