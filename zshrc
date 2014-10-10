@@ -23,7 +23,7 @@ autoload -U ~/.zsh/functions/*(:t)
 autoload bashcompinit
 bashcompinit
 
-source /usr/local/Cellar/git/2.1.0/etc/bash_completion.d
+source ~/.git-flow-completion.zsh
 
 # Fuzzy matching of completions for when you mistype them:
 zstyle ':completion:*' completer _complete _match _approximate

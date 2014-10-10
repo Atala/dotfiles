@@ -5,7 +5,7 @@
 
 SOURCE		:= $(CURDIR)
 TARGET		:= $(HOME)
-FILES		:= zshrc gitconfig gitignore_global aliases vimrc vim python_conf zsh
+FILES		:= zshrc gitconfig gitignore_global aliases vimrc vim python_conf zsh git-flow-completion.zsh
 
 UNAME		:= $(shell uname)
 
