@@ -14,6 +14,9 @@ if [[ -d $HOME/.oh-my-zsh ]]; then
     source $ZSH/oh-my-zsh.sh
 fi
 
+# use space to not log cmd in bash history
+export HISTCONTROL=ignorespace
+
 # autoload zsh functions
 fpath=(~/.zsh/functions $fpath)
 autoload -U ~/.zsh/functions/*(:t)
@@ -56,8 +59,7 @@ precmd () {
         print ""
     fi
 
-    local BEGPS="%(?..[%{$fg_bold[yellow]%}%?%{$reset_color%}]
-)%n@%{$fg_bold[green]%}%m%{$reset_color%}:%{$fg_bold[cyan]%}"
+    local BEGPS="%(?..[%{$fg_bold[yellow]%}%?%{$reset_color%}])%n@%{$fg_bold[green]%}%m%{$reset_color%}:%{$fg_bold[cyan]%}"
     local ENDPS=" > "
     local pwdsize=${#${(%):-%~}}
     if [[ $pwdsize -lt 20 ]]; then
@@ -85,3 +87,33 @@ fi
 if [ -f ~/.aliases ]; then
 . ~/.aliases
 fi
+
+export PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}\007"'
+
+# java
+export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
+
+# Encoding (added by RVI)
+export LC_ALL="en_US.UTF-8"
+
+# Alt + arrow working on iTerm
+bindkey -e
+bindkey '^[[1;9C' forward-word
+bindkey '^[[1;9D' backward-word
+
+docker_clean () {
+    for i in $(docker ps -q --filter "status=exited"); do docker rm $i; done;
+    docker rmi $(docker images -f "dangling=true" -q);
+}
+
+# Add SSH key at each terminal start on OSX High Sierra
+ssh-add -K ~/.ssh/id_rsa &> /dev/null
+ssh-add -K ~/.ssh/coopcycle_rsa &> /dev/null
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+# java setup
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home
+
+# added by travis gem
+[ -f /Users/Alois/.travis/travis.sh ] && source /Users/Alois/.travis/travis.sh
