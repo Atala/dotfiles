@@ -44,3 +44,6 @@ alias gcot='git checkout -t'
 alias gcotb='git checkout --track -b'
 alias glog='git log'
 alias glogp='git log --pretty=format:"%h %s" --graph'
+
+# pip-tools aliases
+alias pip-tools-install='pip-compile --output-file requirements.txt requirements.in && pip-sync'
